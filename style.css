@@ -1,0 +1,106 @@
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+        background-color:rgba(243,229,216,255);
+        font-size: 16px;
+        font-family: "Outfit", sans-serif;
+
+
+    }
+
+  .container{
+    background-color: white;
+    align-items: center;
+    margin: 100px 300px 100px 300px;
+    border-radius: 20px;
+  }
+
+  .omelette-image {
+    display: block;
+    margin: 0 auto; /* This will horizontally center the image */
+    width: 90%; /* Adjust the width as needed */
+    border-radius: 35px;
+    padding: 20px; /* Add padding to create space around the image */
+}
+
+.container .text{
+  display: block;
+  margin: 0 auto; /* This will horizontally center the image */
+  width: 90%; /* Adjust the width as needed */
+  border-radius: 30px;
+  padding: 20px; /* Add padding to create space around the image */
+}
+
+h2, h3{
+   color: rgb(151,87,38);
+}
+h2{
+  padding: 0;
+}
+h1{
+  color: black;
+  font-family: "Young Serif", serif;
+}
+#pre-time{
+  background-color:rgba(255,247,252,255);
+  padding: 6px;
+  border-radius: 15px;
+}
+li {
+  margin-bottom: 10px; /* Add bottom margin to each list item */
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  text-align: left;
+  padding: 8px;
+}
+
+tr {
+  border-bottom: 1px solid #ccc; /* Add a bottom border to each table row */
+}
+#nutritionTable td:nth-child(2) {
+  color: rgb(151,87,38);
+  font-weight: bold;
+}
+
+.young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.outfit-ds {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+h1, h2{
+  font-family: "Young Serif", serif;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%; /* Adjust the width for smaller screens */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+
+  .omelette-image {
+    width: 100%; /* Make the image fill the container */
+    display: block; /* Ensure the image is displayed as a block element */
+    margin: 0 auto; /* Center the image horizontally */
+    max-width: 100%; /* Ensure the image doesn't overflow the container */
+  }
+
+  #pre-time, #p-0 {
+    padding-left: 0; /* Remove padding from lists and instructions */
+  }
+}
+
+
