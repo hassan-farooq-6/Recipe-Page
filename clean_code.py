@@ -1,3 +1,4 @@
+# Just a test change for pre-commit
 def add_numbers(a, b):
     return a + b
 
